@@ -1,0 +1,17 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "Basic CRUD app",
+  "license": "ISC",
+  "author": "Lakshya Runthala",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
